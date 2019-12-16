@@ -1,0 +1,16 @@
+#tabPane {
+    -fx-background-color: lime;
+}
+
+#fileBar, #settingsBar, #helpBar {
+    -fx-border-color: gray;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: lightblue;
+}
+
+#createBtn,{
+    -fx-font-family: 'Arial', sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+

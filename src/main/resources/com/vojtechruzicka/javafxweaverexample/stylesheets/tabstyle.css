@@ -1,0 +1,103 @@
+#tabPaneId {
+    -fx-background-color: white;
+}
+
+#tabPane {
+
+}
+
+#fileId, #settingsId, #helpId {
+    -fx-background-color: white;
+}
+
+#fileId:selected, #settingsId:selected, #helpId:selected {
+    -fx-background-color: lightblue;
+    -fx-border-color: lightblue;
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+}
+
+#fileBar {
+    /*-fx-border-color: gray;
+    -fx-border-width: 2px;
+    -fx-border-style: none none solid none;*/
+}
+
+.tab-pane *.tab-header-background {
+     -fx-background-color: white;
+     -fx-effect: null;
+}
+
+.tab-pane {
+    -fx-font-family: 'Arial', sans-serif;
+    -fx-font-size: 14px;
+    /*-fx-font-weight: bold;*/
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+#createBtn,
+#openBtn,
+#editBtn,
+#saveBtn,
+#closeBtn,
+#downloadBtn,
+#uploadBtn,
+#checkBtn,
+#compareBtn,
+#attachBtn,
+#formBtn,
+#exitBtn,
+#unitsBtn,
+#lastPeriodBtn,
+#filterBtn,
+#updatesBtn,
+#taxonomyBtn,
+#patternsBtn,
+#linkbaseBtn,
+#maxCellsBtn,
+#aboutBtn,
+#helpBtn
+{
+    -fx-opacity: 0.6;
+    transition-duration: 2s;
+}
+
+#createBtn:hover,
+#openBtn:hover,
+#editBtn:hover,
+#saveBtn:hover,
+#closeBtn:hover,
+#downloadBtn:hover,
+#uploadBtn:hover,
+#checkBtn:hover,
+#compareBtn:hover,
+#attachBtn:hover,
+#formBtn:hover,
+#exitBtn:hover,
+#unitsBtn:hover,
+#lastPeriodBtn:hover,
+#filterBtn:hover,
+#updatesBtn:hover,
+#taxonomyBtn:hover,
+#patternsBtn:hover,
+#linkbaseBtn:hover,
+#maxCellsBtn:hover,
+#aboutBtn:hover,
+#helpBtn:hover
+{
+    -fx-opacity: 1;
+    transition-duration: 2s;
+}
+
+#uploadsJ,
+#checkesJ,
+#compareJ,
+#taxonomyJ {
+    -fx-background-color: lightblue;
+    -fx-border-color: gray;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-focus-color: gray;
+}
+

@@ -1,0 +1,16 @@
+#noDataPane {
+     -fx-background-color: rgb(178, 235, 242);
+}
+
+#paneWithData {
+     -fx-background-color: grey;
+}
+
+#noPackage {
+    /*-fx-border-color: gray;*/
+    -fx-border-width: 2;
+    -fx-background-color: rgb(0,151, 167);
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-text-fill: snow;
+}
