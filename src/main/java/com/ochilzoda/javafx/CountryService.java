@@ -1,4 +1,4 @@
-package com.vojtechruzicka.javafxweaverexample;
+package com.ochilzoda.javafx;
 
 import java.util.Set;
 

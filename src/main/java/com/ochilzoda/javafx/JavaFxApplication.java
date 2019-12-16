@@ -1,4 +1,4 @@
-package com.vojtechruzicka.javafxweaverexample;
+package com.ochilzoda.javafx;
 
 import javafx.application.Application;
 import javafx.application.Platform;
@@ -29,7 +29,7 @@ public class JavaFxApplication extends Application {
     @Override
     public void start(Stage stage) {
         FxWeaver fxWeaver = applicationContext.getBean(FxWeaver.class);
-        Parent root = fxWeaver.loadView(MyController.class);
+        Parent root = fxWeaver.loadView(MainController.class);
         Scene scene = new Scene(root,1280, 800);
         stage.setScene(scene);
         stage.setTitle("Universal Client");

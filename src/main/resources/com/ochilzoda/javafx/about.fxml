@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vojtechruzicka.javafxweaverexample.About">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ochilzoda.javafx.About">
     <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
         <Label maxWidth="1.7976931348623157E308" text="Universal Client">
             <VBox.margin>
@@ -21,7 +21,7 @@
                 <Font name="Comic Sans MS Bold" size="23.0" />
             </font>
         </Label>
-        <Label maxHeight="1.7976931348623157E308" text="Stay Hungry, Stay foolish (C) Stive Jobs" wrapText="true" VBox.vgrow="ALWAYS">
+        <Label fx:id="aboutLbl" text="Stay Hungry, Stay foolish (C) Stive Jobs" wrapText="true" maxHeight="1.7976931348623157E308" VBox.vgrow="ALWAYS">
             <font>
                 <Font size="20.0" />
             </font>

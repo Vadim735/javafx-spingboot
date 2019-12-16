@@ -1,10 +1,12 @@
-package com.vojtechruzicka.javafxweaverexample;
+package com.ochilzoda.javafx;
 
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
@@ -20,6 +22,9 @@ public class About {
     private static Logger log = LoggerFactory.getLogger(About.class);
 
     private Stage aboutStage;
+    @FXML
+    public Label aboutLbl;
+    @FXML
     public Button clsBtn;
 
     public void close(ActionEvent actionEvent) {

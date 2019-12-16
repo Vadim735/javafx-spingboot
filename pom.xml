@@ -8,12 +8,12 @@
         <version>2.2.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.vojtechruzicka</groupId>
-    <artifactId>javafx-weaver-example</artifactId>
+    <groupId>com.ochizoda</groupId>
+    <artifactId>javafx-weaver-expl</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>javafx-weaver-example</name>
-    <description>Demo project for Spring Boot and JavaFX integration</description>
+    <name>javafx-weaver-expl</name>
+    <description>Spring Boot and JavaFX integration</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -64,6 +64,16 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.squareup.retrofit2</groupId>
+            <artifactId>retrofit</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.retrofit2</groupId>
+            <artifactId>converter-jackson</artifactId>
+            <version>2.3.0</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -79,7 +89,7 @@
                         <configuration>
                             <classifier>spring-boot</classifier>
                             <mainClass>
-                                com.vojtechruzicka.javafxweaverexample.SpringBootExampleApplication
+                                com.ochilzoda.javafx.SpringBootExampleApplication
                             </mainClass>
                         </configuration>
                     </execution>

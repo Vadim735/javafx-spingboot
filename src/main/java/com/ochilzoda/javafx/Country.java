@@ -1,4 +1,4 @@
-package com.vojtechruzicka.javafxweaverexample;
+package com.ochilzoda.javafx;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
