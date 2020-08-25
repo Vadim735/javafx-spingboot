@@ -1,2 +1,2 @@
-# javafx-springboot-desctop-application
+# javafx-springboot-desktop-application
 Desktop application using Spring Boot and JavaFX.
